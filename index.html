@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mugisha Serein - Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Full-Stack Developer specializing in React, Node.js, and modern web technologies. View my portfolio of innovative projects and get in touch for your next web development project."
+    />
+    <meta name="author" content="John Developer" />
+    <meta
+      name="keywords"
+      content="full-stack developer, react developer, node.js, typescript, web development, portfolio"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://johndeveloper-portfolio.lovable.app/"
+    />
+    <meta
+      property="og:title"
+      content="John Developer - Full-Stack Developer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Full-Stack Developer specializing in React, Node.js, and modern web technologies. View my portfolio and get in touch!"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://johndeveloper-portfolio.lovable.app/"
+    />
+    <meta
+      property="twitter:title"
+      content="John Developer - Full-Stack Developer Portfolio"
+    />
+    <meta
+      property="twitter:description"
+      content="Full-Stack Developer specializing in React, Node.js, and modern web technologies. View my portfolio and get in touch!"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="profile/logo.PNG" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-background"></div>
+      <div class="container">
+        <!-- Profile Image -->
+        <div class="profile-image">
+          <div class="profile-ring">
+            <div class="profile-content">
+              <img src="./profile/profile.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="hero-content">
+          <h1 class="hero-title">Mugisha Serein</h1>
+          <p class="hero-subtitle">Full-Stack Developer</p>
+          <p class="hero-description">
+            I craft exceptional digital experiences through clean code,
+            innovative solutions, and user-centered design. Specializing in
+            HTML5, Python, etc and modern web technologies.
+          </p>
+
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="https://github.com/the-box20" class="social-btn">
+              <i data-lucide="github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mugisha-serein-24ab01298/"
+              class="social-btn"
+            >
+              <i data-lucide="linkedin"></i>
+            </a>
+            <a href="#" class="social-btn">
+              <i data-lucide="mail"></i>
+            </a>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="cta-buttons">
+            <button
+              class="btn btn-primary"
+              onclick="scrollToSection('projects')"
+            >
+              View My Work
+            </button>
+            <button
+              class="btn btn-secondary"
+              onclick="scrollToSection('contact')"
+            >
+              Get In Touch
+            </button>
+          </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+          <button onclick="scrollToSection('about')" class="scroll-btn">
+            <i data-lucide="arrow-down"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            Full-stack developer turning ideas into impactful digital solutions.
+          </p>
+        </div>
+
+        <div class="about-content">
+          <!-- Left Side -->
+          <div class="about-left">
+            <div class="about-image">
+              <div class="about-image-wrapper">
+                <!-- <i data-lucide="user" class="about-icon"></i> -->
+                <img
+                  src="profile/profile.jpg"
+                  alt="Profile Picture"
+                  class="about-icon"
+                />
+              </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats-grid">
+              <div class="stat-card">
+                <div class="stat-number">0+</div>
+                <div class="stat-label">Projects</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">1+</div>
+                <div class="stat-label">Years Exp</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">1+</div>
+                <div class="stat-label">Happy Clients</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Side -->
+          <div class="about-right">
+            <h3 class="about-title">Hi, I'm Mugisha Serein</h3>
+            <p class="about-text">
+              I’m a dedicated full-stack developer with expertise in building
+              high-quality web applications and websites. Skilled in HTML5,
+              Python, and modern JavaScript frameworks, I leverage a diverse set
+              of tools to deliver fast, reliable, and user-friendly digital
+              experiences.
+            </p>
+            <p class="about-text">
+              When I’m not building web applications, you’ll often find me
+              contributing to open-source projects, writing about tech, or
+              experimenting with the latest web tools and frameworks. I love
+              learning new things and sharing knowledge to help the developer
+              community grow.
+            </p>
+
+            <!-- Skills Highlights -->
+            <div class="skills-highlights">
+              <h4 class="skills-title">What I Do Best</h4>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <span class="skill-dot blue"></span>
+                  <span>Frontend Development (React, Html, Css, JavaScript, Tailwind CSS)</span>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-dot purple"></span>
+                  <span>Backend Development (Node.js, Python, MySQL, MongoDB, SQL)</span>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-dot indigo"></span>
+                  <span>Cloud Services (AWS, Vercel, Docker)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="about-cta">
+              <button class="btn btn-primary">
+                <i data-lucide="briefcase"></i>
+                Download Resume
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills & Expertise</h2>
+          <p class="section-subtitle">
+            Technologies and tools I use to bring ideas to life
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Frontend -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon">
+                <i data-lucide="code"></i>
+              </div>
+              <h3 class="skill-category">Frontend</h3>
+            </div>
+            <div class="skill-content">
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>HTML5</span>
+                  <span>100%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 100%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Tailwind CSS</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>React</span>
+                  <span>70%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>JavaScript</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>CSS</span>
+                  <span>100%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 100%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon">
+                <i data-lucide="github"></i>
+              </div>
+              <h3 class="skill-category">Backend</h3>
+            </div>
+            <div class="skill-content">
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>PostgreSQL</span>
+                  <span>30%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 30%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>MySQL</span>
+                  <span>95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>MongoDB</span>
+                  <span>70%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Node.js</span>
+                  <span>75%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Python</span>
+                  <span>95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon">
+                <i data-lucide="briefcase"></i>
+              </div>
+              <h3 class="skill-category">Tools & Others</h3>
+            </div>
+            <div class="skill-content">
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Git</span>
+                  <span>82%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 82%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Docker</span>
+                  <span>15%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 15%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>AWS</span>
+                  <span>20%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 20%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Figma</span>
+                  <span>20%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 20%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Jest</span>
+                  <span>1%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 1%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tech Stack Icons -->
+        <div class="tech-stack">
+          <h3 class="tech-title">Technologies I Work With</h3>
+          <div class="tech-list">
+            <span class="tech-item">React</span>
+            <span class="tech-item">Python</span>
+            <span class="tech-item">Node.js</span>
+            <span class="tech-item">HTML5</span>
+            <span class="tech-item">MySQL</span>
+            <span class="tech-item">SQL</span>
+            <span class="tech-item">JavaScript</span>
+            <span class="tech-item">CSS</span>
+            <span class="tech-item">Git</span>
+            <span class="tech-item">Tailwind CSS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            A showcase of my best work, demonstrating technical skills and
+            creative problem-solving
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card featured">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop"
+                alt="E-Commerce Platform"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">E-Commerce Platform</h3>
+              <p class="project-description">
+                A full-stack e-commerce solution with React, Node.js, and
+                PostgreSQL. Features include user authentication, payment
+                processing, order management, and admin dashboard.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Stripe</span>
+                <span class="tech-tag">Tailwind CSS</span>
+              </div>
+              <div class="project-links">
+                <!-- <a href="#" class="btn btn-primary btn-sm">
+                                <i data-lucide="briefcase"></i>
+                                Live Demo
+                            </a> -->
+                <a href="#" class="btn btn-outline btn-sm">
+                  <i data-lucide="github"></i>
+                  Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card featured">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop"
+                alt="Task Management App"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Task Management App</h3>
+              <p class="project-description">
+                A collaborative project management tool with real-time updates,
+                drag-and-drop functionality, and team collaboration features
+                built with React and Socket.io.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Socket.io</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">Material-UI</span>
+              </div>
+              <div class="project-links">
+                <!-- <a href="#" class="btn btn-primary btn-sm">
+                                <i data-lucide="briefcase"></i>
+                                Live Demo
+                            </a> -->
+                <a href="#" class="btn btn-outline btn-sm">
+                  <i data-lucide="github"></i>
+                  Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card featured">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop"
+                alt="Blog Platform"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Blog Platform</h3>
+              <p class="project-description">
+                A modern blogging platform with markdown support, SEO
+                optimization, and social features. Includes admin panel for
+                content management and user analytics.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">MDX</span>
+                <span class="tech-tag">Prisma</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">NextAuth</span>
+              </div>
+              <div class="project-links">
+                <!-- <a href="#" class="btn btn-primary btn-sm">
+                                <i data-lucide="briefcase"></i>
+                                Live Demo
+                            </a> -->
+                <a href="#" class="btn btn-outline btn-sm">
+                  <i data-lucide="github"></i>
+                  Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other Projects -->
+        <div class="other-projects">
+          <h3 class="other-projects-title">Other Notable Projects</h3>
+          <div class="other-projects-grid">
+            <div class="other-project-card">
+              <div class="other-project-header">
+                <h4 class="other-project-title">Weather Dashboard</h4>
+                <div class="other-project-links">
+                  <a href="#" class="icon-btn">
+                    <i data-lucide="briefcase"></i>
+                  </a>
+                  <a href="#" class="icon-btn">
+                    <i data-lucide="github"></i>
+                  </a>
+                </div>
+              </div>
+              <p class="other-project-description">
+                A beautiful weather application with location-based forecasts,
+                interactive maps, and detailed weather analytics.
+              </p>
+              <div class="other-project-tech">
+                <span class="tech-tag small">React</span>
+                <span class="tech-tag small">TypeScript</span>
+                <span class="tech-tag small">Chart.js</span>
+                <span class="tech-tag small">+1</span>
+              </div>
+            </div>
+
+            <div class="other-project-card">
+              <div class="other-project-header">
+                <h4 class="other-project-title">Portfolio Website</h4>
+                <div class="other-project-links">
+                  <a href="#" class="icon-btn">
+                    <i data-lucide="briefcase"></i>
+                  </a>
+                  <a href="#" class="icon-btn">
+                    <i data-lucide="github"></i>
+                  </a>
+                </div>
+              </div>
+              <p class="other-project-description">
+                A responsive portfolio website showcasing projects and skills.
+                Built with modern web technologies and optimized for
+                performance.
+              </p>
+              <div class="other-project-tech">
+                <span class="tech-tag small">React</span>
+                <span class="tech-tag small">Tailwind CSS</span>
+                <span class="tech-tag small">Framer Motion</span>
+              </div>
+            </div>
+
+            <div class="other-project-card">
+              <div class="other-project-header">
+                <h4 class="other-project-title">Chat Application</h4>
+                <div class="other-project-links">
+                  <a href="#" class="icon-btn">
+                    <i data-lucide="briefcase"></i>
+                  </a>
+                  <a href="#" class="icon-btn">
+                    <i data-lucide="github"></i>
+                  </a>
+                </div>
+              </div>
+              <p class="other-project-description">
+                Real-time chat application with private messaging, group chats,
+                file sharing, and emoji reactions.
+              </p>
+              <div class="other-project-tech">
+                <span class="tech-tag small">React</span>
+                <span class="tech-tag small">Socket.io</span>
+                <span class="tech-tag small">Node.js</span>
+                <span class="tech-tag small">+2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="projects-cta">
+          <a href="https://github.com/the-box20?tab=repositories">
+            <button class="btn btn-primary btn-lg">
+              <i data-lucide="code"></i>
+              View All Projects on GitHub
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Let's Work Together</h2>
+          <p class="section-subtitle">
+            Have a project in mind? I'd love to hear about it. Send me a message
+            and let's create something amazing together.
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <h3 class="contact-title">Get In Touch</h3>
+
+            <div class="contact-items">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i data-lucide="mail"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <p>muserein@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i data-lucide="user"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Location</h4>
+                  <p>Kigali, Rwanda</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="contact-social">
+              <h4 class="social-title">Follow Me</h4>
+              <div class="social-links">
+                <a href="https://github.com/the-box20" class="social-btn">
+                  <i data-lucide="github"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/mugisha-serein-24ab01298/"
+                  class="social-btn"
+                >
+                  <i data-lucide="linkedin"></i>
+                </a>
+                <a href="#" class="social-btn">
+                  <i data-lucide="mail"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper">
+            <div class="contact-form-card">
+              <h3 class="form-title">Send me a message</h3>
+              <form
+                id="contactForm"
+                class="contact-form"
+                onsubmit="sendEmail(event)"
+              >
+                <div class="form-row">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Your Message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">
+                  <i data-lucide="send"></i>
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Back to top button -->
+          <button class="back-to-top" onclick="scrollToTop()">
+            <i data-lucide="arrow-up"></i>
+          </button>
+
+          <!-- Main content -->
+          <div class="footer-main">
+            <h3 class="footer-name">Mugisha Serein</h3>
+            <p class="footer-role">Full-Stack Developer</p>
+
+            <!-- Social links -->
+            <div class="footer-social">
+              <a href="https://github.com/the-box20" class="social-btn">
+                <i data-lucide="github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/mugisha-serein-24ab01298/"
+                class="social-btn"
+              >
+                <i data-lucide="linkedin"></i>
+              </a>
+              <a href="#" class="social-btn">
+                <i data-lucide="mail"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Bottom section -->
+          <div class="footer-bottom">
+            <div class="footer-copyright">
+              <p>&copy; 2025 Mugisha Serein. All rights reserved.</p>
+              <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
