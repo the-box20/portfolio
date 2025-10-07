@@ -1,4 +1,4 @@
-Mugisha Serein – Developer Portfolio
+Developer Portfolio
 
 🚀 Overview
 
