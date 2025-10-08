@@ -1,18 +1,43 @@
-Developer Portfolio
+Mugisha Serein – Full-Stack Developer Portfolio
 
-🚀 Overview
+Hi there 👋
+I’m Mugisha Serein, a passionate full-stack developer focused on crafting fast, reliable, and user-friendly web experiences.
+This portfolio is a reflection of my skills, projects, and journey as a modern web developer.
 
-This portfolio website showcases the work, skills, and achievements of Mugisha Serein, 
-a passionate full-stack developer dedicated to building meaningful, 
-high-quality digital experiences. 
-It’s designed as a personal brand space to highlight technical expertise, creative projects, and professional identity.
+About the Portfolio
 
-🎯 Goals
+This site is designed to:
 
-Showcase technical skills in both frontend and backend development.
+Showcase my frontend & backend development skills
 
-Highlight featured projects that demonstrate innovation, functionality, and clean design.
+Highlight featured projects that solve real problems
 
-Provide easy access for potential clients, collaborators, and employers to get in touch.
+Provide an easy way to connect and collaborate
 
-Reflect personal style through a clean, modern, and responsive design.
+Represent my personal brand and technical growth
+
+Tech Stack
+
+Frontend: HTML5, CSS3, JavaScript, React, Tailwind CSS
+Backend: Node.js, Python, MySQL, MongoDB
+Tools: Git, Vercel, Docker, AWS, Figma
+
+Features
+
+Fully responsive & modern design
+
+Clean UI with smooth scroll and animations
+
+Project showcases with GitHub links
+
+Integrated contact form (EmailJS)
+
+SEO-ready and performance optimized
+
+Get in Touch
+
+📧 Email: muserein@gmail.com
+
+💻 GitHub: the-box20
+
+🔗 LinkedIn: mugisha-serein-24ab01298
