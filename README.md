@@ -1,6 +1,7 @@
 Mugisha Serein – Full-Stack Developer Portfolio
 
 Hi there 👋
+
 I’m Mugisha Serein, a passionate full-stack developer focused on crafting fast, reliable, and user-friendly web experiences.
 This portfolio is a reflection of my skills, projects, and journey as a modern web developer.
 
@@ -15,12 +16,6 @@ Highlight featured projects that solve real problems
 Provide an easy way to connect and collaborate
 
 Represent my personal brand and technical growth
-
-Tech Stack
-
-Frontend: HTML5, CSS3, JavaScript, React, Tailwind CSS
-Backend: Node.js, Python, MySQL, MongoDB
-Tools: Git, Vercel, Docker, AWS, Figma
 
 Features
 
